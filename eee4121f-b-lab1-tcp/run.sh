@@ -1,14 +1,14 @@
 #!/bin/bash
 echo "starting tcp experiment"
 
-python tcp.py --bw-host 100 \
+python tcp.py --bw-host 1000 \
           --bw-net 2 \
           --delay 50 \
           --dir ./ \
           --time 30 \
           --maxq 100 \
-          --cong bbr \
-          --qman fq \
+#         --cong bbr \
+#          --qman fq \
           
 
 echo "done computations starting plots"
