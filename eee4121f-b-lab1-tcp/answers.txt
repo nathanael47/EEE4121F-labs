@@ -1,0 +1,2 @@
+The average is: 0.740733333333 seconds 
+The standard deviation is 0.00146059348668 seconds 
